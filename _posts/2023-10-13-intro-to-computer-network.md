@@ -2,13 +2,13 @@
 layout: post
 read_time: true
 show_date: true
-title:  01 Introduction to Computer Network
-date:   2023-10-13 13:32:20 -0600
-description: some description of the computer network
+title:  "01 Introduction to Computer Network"
+date: 2023-10-13
+description: "some description of the computer network"
 img: assets/img/posts/20210125/Perceptron.jpg 
 tags: [computer network]
 author: RadiumStar
-github:  
+# github:  
 mathjax: yes
 ---
 
