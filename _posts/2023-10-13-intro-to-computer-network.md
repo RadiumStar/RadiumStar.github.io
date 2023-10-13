@@ -27,6 +27,29 @@ mathjax: yes
    1. 客户client
    2. 服务器server
 3. packet包：主机会发送数据的包，其中delay
-   $$
-   Delay = \frac{L(\text{bits})}{R(\text{bits/sec})}
-   $$
+
+<p style = "text-align:center">\(<br>
+\begin{align}
+\begin{split}
+Delay = \frac{L(\text{bits})}{R(\text{bits/sec})}
+\end{split}
+\end{align}
+\)</p>
+
+```c
+#include <stdio.h>
+
+int main(int argc, char* argv[]) {
+    printf("Hello World!\n"); 
+    return 0; 
+}
+```
+
+```mermaid
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
