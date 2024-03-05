@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0; /* 将导航栏顶到页面最上面 */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 40px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: rgb(3, 214, 237);
+}
+
+.logo img {
+  width: 50px; /* 调整 logo 图片大小 */
+  height: 50px; /* 调整 logo 图片大小 */
+  border-radius: 50%; /* 圆形化 */
+  transition: transform 0.3s ease; /* 添加过渡效果 */
+}
+
+.logo:hover img {
+  transform: scale(1.2) rotate(360deg); /* 鼠标悬停时放大和旋转 */
+}
